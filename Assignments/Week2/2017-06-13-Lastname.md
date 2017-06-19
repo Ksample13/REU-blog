@@ -1,0 +1,59 @@
+---
+title: "TBD"
+subtitle: "Firstname Lastname"
+date: "2017-06-13 12:00:00 CDT"
+topic: "week2"
+layout: post
+root: ../../../
+tags: [forensics, statistics, assignments]
+---
+ 
+## Background:
+
+During the 8:30am, 10:00am, and 11:00am, sessions pay close attention to the 5-10 minute project reports. Whichever ones most interest you should correspond to the afternoon sessions at 1:00pm and 3:15pm. Have your agenda with you so that you can take notes on which afternoon sessions you want to attend. Decide during lunch and the breaks in between sessions how to split yourselves up into the groups so that **no more** than 3 of you are in any 1 group in the 1:00pm session, and **no more** than 4 of you are in any 1 group in the 3:15pm session. You can choose who attends which session however you want. 
+
+In the afternoon sessions you choose to visit, play close attention and take good notes! This blog assignment should be treated like a "report back" to your colleagues who aren't able to attend the others. You have to report the information as accurately and completely as you are able to.
+
+Some questions to consider for **each** of the afternoon sessions:
+
+1. What forensic methods are discussed?
+2. What statistical methods are discussed?
+3. If you were a full-time researcher with CSAFE, which one of the projects presented in the group would you most like to work on? Why?
+4. What future work is discussed? What holes are the projects trying to fill?
+5. What future work could *you* propose to the group that would also be of interest? 
+6. What was the coolest or most intriguing thing you learned in the session?
+
+You are not restricted to only answering to these questions, but please do these as a minimum. Again, think of this as a report back to your collegues. **You** have to teach them what you learned! 
+
+Additionally, please report back on 1 poster presentation. Tell us:
+
+- Who you talked to
+- The institution they're with
+- Their research question
+- One result they report on
+- At least one question you asked the poster presenter
+
+### Bonus Challenge:
+
+Take a picture with the poster presenter and put it in your blog submission. *Hint: How do you insert a photo in Markdown?*
+
+## 1pm Session: Session Name Here
+
+Your "report" goes here. 
+
+## 3:15pm Session: Session Name Here
+
+Your "report" goes here. 
+
+## Poster Session: Poster Title Here
+
+Your "report" goes here.
+
+## Instructions (Read carefully, please!!):
+Save a **copy** of this file, replacing "Lastname" in the filename with your own and **leave the original unedited**.
+
+In **your copy**, replace the `title:` and `subtitle:` fields in the YAML above (put your name in the `subtitle` field), while leaving the remaining fields intact. Remove the background and the instructions sections and write your blog post! 
+
+Once you are done, **create a pull request** to upload your changes to the original repository!
+
+**Note**: The date above is the due date and time. Don't edit this field! 
