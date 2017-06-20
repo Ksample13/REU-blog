@@ -15,7 +15,7 @@ tags: [git]
 
 ![Current md File](images1/Capture2.PNG)
 
-# 3. Select the "Raw" button to see the underlying code.
+# 3. Select the `Raw` button to see the underlying code.
 
 ![Raw Code](images1/Capture3.PNG)
 
