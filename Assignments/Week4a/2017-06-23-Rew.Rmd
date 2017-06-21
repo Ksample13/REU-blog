@@ -1,6 +1,6 @@
 ---
 title: "My Report Extravaganza"
-author: "Firstname Lastname"
+author: "Sam Rew"
 date: "2017-06-123 17:00:00 CDT"
 output: github_document
 ---
