@@ -1,5 +1,5 @@
 ---
-title: "Report on Bullets"
+title: "Report on Bullets: Week 4, Assignment a"
 author: "Amanda Rae"
 date: "2017-06-123 17:00:00 CDT"
 output: github_document
