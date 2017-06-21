@@ -1,6 +1,6 @@
 ---
-title: "My Report"
-author: "Firstname Lastname"
+title: "Assignment Week 4A"
+author: "James Kruse"
 date: "2017-06-123 17:00:00 CDT"
 output: github_document
 ---
