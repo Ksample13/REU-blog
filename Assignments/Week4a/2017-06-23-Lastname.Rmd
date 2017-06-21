@@ -1,14 +1,14 @@
 ---
 title: "My Report"
 author: "Firstname Lastname"
-date: "2017-06-123 17:00:00 CDT"
+date: "2017-06-23 17:00:00 CDT"
 output: github_document
 ---
 
 ```{r setup, include=FALSE}
 # DONT DELETE LINES 1-12! 
 knitr::opts_chunk$set(echo = TRUE, fig.width = 6, fig.height = 8,
-                      fig.align = "center")
+                      fig.align = "center", error = TRUE)
 ```
 
 ## Introduction
@@ -22,8 +22,8 @@ This report contains my data analysis of a scan of a bullet. This data is stored
 
 This is my plot. On the *x*-axis, I put the "y" value in my data set. This "y" value is the horizontal position (on the red dotted line) in the image above. On the *y*-axis in my plot, I put the "resid" value in my data set. This "resid" value represents the depth of the striation marks in the bullet. Recall that these values are all measured in micrometers ($\mu$m).
 
+<!-- In the brackets below, delete `eval = FALSE` before clicking `knit` -->
 ```{r myPlot, eval = FALSE}
-# In the brackets above, delete `eval = FALSE` before clicking `knit`
 library(ggplot2)
 library(readr)
 bullet <- read.cvs("bullet.csv")
@@ -36,8 +36,7 @@ ggplot(data = bullet) +
 
 That was a very pretty plot! Let's look at a summary of the data:
 
-```{r mySummary, eval = FALSE}
-# In the brackets above, delete `eval = FALSE` before clicking `knit`
+```{r mySummary}
 summary(bullet)
 ```
 
@@ -45,18 +44,19 @@ summary(bullet)
 
 Finally, I look for outliers in the data. Outliers are typically defined as values greater than two standard deviations above the mean, and as values less than two standard deviations below the mean.
 
+<!-- In the brackets below, delete `eval = FALSE` before clicking `knit` -->
 ```{r myPlot2, eval=FALSE}
-# In the brackets above, delete `eval = FALSE` before clicking `knit`
 library(tidyr)
 myLines <- data.frame(meanValue = mean(bullet$resid), 
            OutliersAtLeft = mean(bullet$resid) - 2*sd(bullet$resid),
            OutliersAtRight = mean(bullet$resid) + 2*sd(bullet$resid))
 myLines <- myLines %>% gather(id, value)
-ggplot() + 
+ggplot() %>% 
   geom_histogram(data = bullet, aes(x = resid), binwidth = .25) + 
   geom_vline(data = myLines, aes(xintercept = value), color = 'red') +
-  geom_label(data = myLines, aes(x = value, y = 100, label = id))
-  ggtitle("Histrogram Showing the Distribution of")
+  geom_label(data = myLines, aes(x = value, y = 100, label = id))  
+  ggtitle("Histogram of the height of the striation marks", 
+          subtitle = "Outliers lie outside of the redlines")
 ```
 
 This was a great learning experience about bullets!
