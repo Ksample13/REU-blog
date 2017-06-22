@@ -55,22 +55,12 @@ myLines <- myLines %>% gather(id, value)
 ggplot() + 
   geom_histogram(data = bullet, aes(x = resid), binwidth = .25) + 
   geom_vline(data = myLines, aes(xintercept = value), color = 'red') +
-  geom_label(data = myLines, aes(x = value, y = 100, label = id))
-  ggtitle("Histrogram Showing the Distribution of")
+  geom_label(data = myLines, aes(x = value, y = 100, label = id))+
+  ggtitle("Histrogram of the height of the striation marks",
+          subtitle = "Outliers lie outside of the redlines")
 ```
 
 This was a great learning experience about bullets!
 
 
-# Assignment Instructions (Read carefully, please!)
-
-This file `2017-06-23-Lastname.Rmd` is a reproducible report created by a fictional student named Firstname Lastname. Unfortunately, they aren't a very good student, and submitted an assignment with a lot of `R` code errors. Your assignment is to fix their code and re-run their report. 
-
-Delete this instructions section in your document, fix the errors in the document, and knit it. When you click on the `knit` button (see below), a file called `2017-06-23-Lastname.md` and a folder called `2017-06-23-Lastname_files` will appear. When you are ready to submit, upload the `2017-06-23-Lastname.md`, `2017-06-23-Lastname.Rmd`, and the `2017-06-23-Lastname_files` folder to your repo. **Careful**: Do NOT knit the original `2017-06-23-Lastname.Rmd`. Only knit YOUR own `.Rmd` file. 
-
-![](knit.png)
-
-### Remember!
-
-Sam and Joe will reject your pull request if it does not comport with the instructions above.
 
