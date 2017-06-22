@@ -22,7 +22,7 @@ This report contains my data analysis of a scan of a bullet. This data is stored
 
 This is my plot. On the *x*-axis, I put the "y" value in my data set. This "y" value is the horizontal position (on the red dotted line) in the image above. On the *y*-axis in my plot, I put the "resid" value in my data set. This "resid" value represents the depth of the striation marks in the bullet. Recall that these values are all measured in micrometers ($\mu$m).
 
-```{r myPlot, eval = FALSE}
+```{r myPlot,}
 # In the brackets above, delete `eval = FALSE` before clicking `knit`
 library(ggplot2)
 library(readr)
@@ -36,7 +36,7 @@ ggplot(data = bullet) +
 
 That was a very pretty plot! Let's look at a summary of the data:
 
-```{r mySummary, eval = FALSE}
+```{r mySummary,}
 # In the brackets above, delete `eval = FALSE` before clicking `knit`
 summary(bullet)
 ```
@@ -45,7 +45,7 @@ summary(bullet)
 
 Finally, I look for outliers in the data. Outliers are typically defined as values greater than two standard deviations above the mean, and as values less than two standard deviations below the mean.
 
-```{r myPlot2, eval=FALSE}
+```{r myPlot2, }
 # In the brackets above, delete `eval = FALSE` before clicking `knit`
 library(tidyr)
 myLines <- data.frame(meanValue = mean(bullet$resid), 
