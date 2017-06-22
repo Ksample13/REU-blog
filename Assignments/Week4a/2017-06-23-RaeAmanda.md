@@ -1,29 +1,22 @@
----
-title: "Report on Bullets: Week 4, Assignment a"
-author: "Amanda Rae"
-date: "2017-06-123 17:00:00 CDT"
-output: github_document
----
+Report on Bullets: Week 4, Assignment a
+================
+Amanda Rae
+2017-06-123 17:00:00 CDT
 
-```{r setup, include=FALSE}
-# DONT DELETE LINES 1-12! 
-knitr::opts_chunk$set(echo = TRUE, fig.width = 6, fig.height = 8,
-                      fig.align = "center", error = TRUE)
-```
-
-## Introduction
+Introduction
+------------
 
 This report contains my data analysis of a scan of a bullet. This data is stored in the file [bullet.csv](./bullet.csv). The data I analyze is one crosscut of a 3D bullet scan at the micrometer level. The red dotted line in the image below shows an example of a bullet crosscut like the one I analyze. To better understand this data, I looked at a plot of it.
 
 ![](striations.jpg)
 
+Plot
+----
 
-## Plot
-
-This is my plot. On the *x*-axis, I put the "y" value in my data set. This "y" value is the horizontal position (on the red dotted line) in the image above. On the *y*-axis in my plot, I put the "resid" value in my data set. This "resid" value represents the depth of the striation marks in the bullet. Recall that these values are all measured in micrometers ($\mu$m).
+This is my plot. On the *x*-axis, I put the "y" value in my data set. This "y" value is the horizontal position (on the red dotted line) in the image above. On the *y*-axis in my plot, I put the "resid" value in my data set. This "resid" value represents the depth of the striation marks in the bullet. Recall that these values are all measured in micrometers (*μ*m).
 
 <!-- In the brackets below, delete `eval = FALSE` before clicking `knit` -->
-```{r myPlot, eval = FALSE}
+``` r
 library(ggplot2)
 library(readr)
 
@@ -35,20 +28,24 @@ ggplot(data = bullet) +
   geom_point(aes(x= y, y = resid, colour = resid))
 ```
 
-## Summarizing my data
+Summarizing my data
+-------------------
 
 That was a very pretty plot! Let's look at a summary of the data:
 
-```{r mySummary}
+``` r
 summary(bullet)
 ```
 
-## One more plot
+    ## Error in summary(bullet): object 'bullet' not found
+
+One more plot
+-------------
 
 Finally, I look for outliers in the data. Outliers are typically defined as values greater than two standard deviations above the mean, and as values less than two standard deviations below the mean.
 
 <!-- In the brackets below, delete `eval = FALSE` before clicking `knit` -->
-```{r myPlot2, eval=FALSE}
+``` r
 library(tidyr)
 myLines <- data.frame(meanValue = mean(bullet$resid), 
            OutliersAtLeft = mean(bullet$resid) - 2*sd(bullet$resid),
@@ -63,13 +60,3 @@ ggplot() +
 ```
 
 This was a great learning experience about bullets!
-
-
-
-
-
-
-
-
-
-
