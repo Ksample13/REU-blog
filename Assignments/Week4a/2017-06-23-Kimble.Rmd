@@ -26,10 +26,10 @@ This is my plot. On the *x*-axis, I put the "y" value in my data set. This "y" v
 # In the brackets above, delete `eval = FALSE` before clicking `knit`
 library(ggplot2)
 library(readr)
-bullet <- read.cvs("bullet.csv")
+bullet <- read.csv("bullet.csv")
 head(bullet)
 ggplot(data = bullet) + 
-  geom_line(aes(x= y, y = resid))
+  geom_point(aes(x= y, y = resid, colour=resid))
 ```
 
 ## Summarizing my data
