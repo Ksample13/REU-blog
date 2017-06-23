@@ -1,2 +1,2 @@
 # REU-blog
-Post blog assignments here.
+Post blog assignments here!
