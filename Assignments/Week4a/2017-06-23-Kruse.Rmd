@@ -23,7 +23,7 @@ This report contains my data analysis of a scan of a bullet. This data is stored
 This is my plot. On the *x*-axis, I put the "y" value in my data set. This "y" value is the horizontal position (on the red dotted line) in the image above. On the *y*-axis in my plot, I put the "resid" value in my data set. This "resid" value represents the depth of the striation marks in the bullet. Recall that these values are all measured in micrometers ($\mu$m).
 
 <!-- In the brackets below, delete `eval = FALSE` before clicking `knit` -->
-```{r myPlot, eval = FALSE}
+```{r myPlot}
 library(ggplot2)
 library(readr)
 bullet <- read.csv("bullet.csv")
