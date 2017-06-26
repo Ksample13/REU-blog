@@ -14,6 +14,8 @@ Revisit the [case study](https://www.unh.edu/research/sites/www.unh.edu.research
 
 For your two questions, plus one question from each of the two peers you selected, (for a total of four questions), discuss the following: *In what way(s) can GitHub help address the issues which these questions raise?
 
+
+
 ## Instructions (Read carefully, please!!):
 
 Before beginning the new assignment, [update your fork](https://github.com/CSAFE-ISU/REU-blog/blob/master/update_instructions/Update_instructions.md).
