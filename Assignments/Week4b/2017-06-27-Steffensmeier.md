@@ -14,7 +14,9 @@ Revisit the [case study](https://www.unh.edu/research/sites/www.unh.edu.research
 
 For your two questions, plus one question from each of the two peers you selected, (for a total of four questions), discuss the following: *In what way(s) can GitHub help address the issues which these questions raise?
 
-
+## What data management issues does this case raise? (Maddie Quistgaard)
+	
+Some issues that arisen were that the data was tampered with to make the outcome of the results be astonishing and unique to the point that it was significate. The data management should have been looking for discrepancies that had occurred in the data instead of letting the researcher do everything on their own without getting verified about all the work done. There was lack in control and verification in the research which laid to the retraction of the research. 
 
 ## Instructions (Read carefully, please!!):
 
