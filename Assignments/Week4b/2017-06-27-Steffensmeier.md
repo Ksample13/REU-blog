@@ -18,6 +18,11 @@ For your two questions, plus one question from each of the two peers you selecte
 	
 Some issues that arisen were that the data was tampered with to make the outcome of the results be astonishing and unique to the point that it was significate. The data management should have been looking for discrepancies that had occurred in the data instead of letting the researcher do everything on their own without getting verified about all the work done. There was lack in control and verification in the research which laid to the retraction of the research. 
 
+
+## Why didn’t the peer review system identify the problems? (Macy Neblett)
+
+The peer review process entails experts of that area of science reviewing the new study. Perhaps because these “results” seemed so revolutionary, the reviewers were eager to have evidence contrary to older studies. For example, people used to believe that the Earth was the center of the universe. It wasn’t until Copernicus’ controversial model of heliocentrism that a scientific effort was made to prove this idea that went against people’s preconceived notions. Perhaps the reviewers thought along these lines; that maybe with the changing times, people’s attitudes were also changing. 
+
 ## Instructions (Read carefully, please!!):
 
 Before beginning the new assignment, [update your fork](https://github.com/CSAFE-ISU/REU-blog/blob/master/update_instructions/Update_instructions.md).
