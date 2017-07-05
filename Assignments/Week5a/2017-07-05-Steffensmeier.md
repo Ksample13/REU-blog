@@ -7,50 +7,30 @@ layout: post
 root: ../../../
 tags: [forensics, statistics, assignments]
 ---
- 
-## Background:
 
-Select one of the forensics methods discussed in [Sections 5.3-5.7](https://obamawhitehouse.archives.gov/sites/default/files/microsites/ostp/PCAST/pcast_forensic_science_report_final.pdf#%5B%7B%22num%22%3A213%2C%22gen%22%3A0%7D%2C%7B%22name%22%3A%22XYZ%22%7D%2C52%2C680%2C0%5D) of the report "Forensic Science in Criminal Courts: Ensuring Scientific Validity of Feature-Comparison Methods", which was issued by the President’s Council of Advisors on Science and Technology in 2016. Read that subsection *thoroughly*, taking note of issues the report identifies for that method.
-
-Outline how you would design an experiment to address one of the issues raised with that method you selected. As you write your description, be sure to address the following:
 
 *Bitemark Analysis*
+
 - **What kind of factors would you need to control for, and how would you accomplish that?**
 
-
+The factors you could control are: how much time is in between the analysis of the bitemark and the initial bite, material bitten into, and how the bitemark is analyzed. I would accomplish this by giving the analysts the bitemarks in question a designated amount of time after the initial bitemark (1 hour, 2 hours, etc.), using specific materials for the suspects to bite into, and designating a specific process and criteria that the analysts have to follow.
 
 - **What would be the treatments in your experiment?**
 
-The bitemarks themselves
+The bitemark on the object/victim and the photographs of the bitemarks from the suspects.
 
 - **What would the units be?**
 
-The material, object, or victim that was bitten into and the bitemark taken from the suspect
+The material, object, or victim that was bitten into and the bitemark taken from the suspect.
 
 - **What would the responses be? How would you measure those responses?**
 
-Whether or not the bitemarks were a match
+Whether the bitemarks were a match, not a match, or inconclusive.
 
 - **How would you utilize randomness within your experiment?**
 
-
+Having the bitemarks analyzed in a random order for each analyst. 
 
 - **How would you achieve replication in your experiment?**
 
- I would 
- 
-## Instructions (Read carefully, please!!):
-
-Before beginning the new assignment, [update your fork](https://github.com/CSAFE-ISU/REU-blog/blob/master/update_instructions/Update_instructions.md), and pull those changes to your fork down to your computer through RStudio. 
-
-Save a **copy** of this file (in RStudio), replacing "Lastname" in the filename with your own and **leave the original unedited**.
-
-In **your copy**, replace the `title:` and `subtitle:` fields in the YAML above (put your name in the `subtitle` field), while leaving the remaining fields intact. Remove the background and the instructions sections and write your blog post! 
-
-Once you are done, **create a pull request** to upload your changes to the original repository!
-
-**Note**: The date above is the due date and time. Don't edit this field! 
-
-#### Extra, extra!  
-
-Sam and Joe will reject your pull request if it does not comport with the instructions above! 
+ Having multiple analysts look at the bitemarks.
