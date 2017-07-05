@@ -14,7 +14,9 @@ Select one of the forensics methods discussed in [Sections 5.3-5.7](https://obam
 
 Outline how you would design an experiment to address one of the issues raised with that method you selected. As you write your description, be sure to address the following:
 
+*Bitemark Analysis*
 - **What kind of factors would you need to control for, and how would you accomplish that?**
+
 
 
 - **What would be the treatments in your experiment?**
@@ -23,7 +25,7 @@ The bitemarks themselves
 
 - **What would the units be?**
 
-The material, object, or skin that was bitten into 
+The material, object, or victim that was bitten into and the bitemark taken from the suspect
 
 - **What would the responses be? How would you measure those responses?**
 
@@ -35,6 +37,7 @@ Whether or not the bitemarks were a match
 
 - **How would you achieve replication in your experiment?**
 
+ I would 
  
 ## Instructions (Read carefully, please!!):
 
