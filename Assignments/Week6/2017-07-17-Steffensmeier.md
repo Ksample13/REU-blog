@@ -35,22 +35,3 @@ The main idea of this section was relevant evidence. In most cases, firearm and 
 The abstract of this paper primarily discusses “the current criticism leveled at firearm and toolmark analysis”. According to Murdock, the amount of critique aimed at these analyses is “misinformed and, at worst, punditry”; he then goes on to say that “the purpose(s) of this paper are to point out the logical fallacies in the arguments of a small group of pundits… and to give a balanced review of the literature regarding RMP models and statistical applications that have been carried out in forensic firearm and toolmark analysis.” What actually resulted from this paper is far different than the abstract’s original purpose. Murdock antagonized the work and opinions of most people who are aiming to improve the analysis of firearms and toolmarks. Murdock quotes “strong scrutiny is a healthy and necessary part of any scientific endeavor”, however he doesn’t seem to find value in the progress CSAFE and other research programs are doing for forensic science. “Schwartz and Carriquiry *ignore* the inescapable fact that firearm and toolmark identification works...” Both of the quotes are on the *exact same page*. It is ironic how he talks about the importance of scrutiny with the sciences, yet turns around and bashes those who try to improve on the methods and accuracy of firearm and toolmark identification. I expected his paper to indicate the discrepancies amongst experts’ opinions and the studies done in the past; however, I believe this paper simply was an attempt to burn the people who had different opinions than his own. His title alone was completely misleading; instead, he should have titled it “The Burning of People and their ‘Expert’ (said sarcastically) Opinions on Firearm and Toolmark Identification”. In essence, Murdock’s paper would have been an excellent example for Bryan to discuss with us on what we shouldn’t put on a poster and on a future paper.
 
 
-## Optional "Letter to the Editor"
-
-___
- 
-## Instructions (Read carefully, please!!):
-
-Before beginning the new assignment, [update your fork](https://github.com/CSAFE-ISU/REU-blog/blob/master/update_instructions/Update_instructions.md), and pull those changes to your fork down to your computer through RStudio. 
-
-Save a **copy** of this file (in RStudio), replacing "Lastname" in the filename with your own and **leave the original unedited**.
-
-In **your copy**, replace the `title:` and `subtitle:` fields in the YAML above (put your name in the `subtitle` field), while leaving the remaining fields intact. Remove the background and the instructions sections and write your blog post! The first person to email Sam & Joe before the due date of this post with the subject line "I can read directions" will receive a five dollar gift card to caribou. 
-
-Once you are done, **create a pull request** to upload your changes to the original repository!
-
-**Note**: The date above is the due date and time. Don't edit this field! 
-
-#### Extra, extra!  
-
-Sam and Joe will reject your pull request if it does not comport with the instructions above! 
