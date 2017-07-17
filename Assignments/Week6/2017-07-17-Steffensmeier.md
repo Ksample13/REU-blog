@@ -1,6 +1,6 @@
 ---
 title: "Discussion of Firearms & Toolmarks Analysis"
-subtitle: "Firstname Lastname"
+subtitle: "Anna Steffensmeier"
 date: "2017-07-17 23:59:59 CDT"
 topic: "week6"
 layout: post
