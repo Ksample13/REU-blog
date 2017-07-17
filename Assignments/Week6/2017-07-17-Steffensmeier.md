@@ -8,19 +8,6 @@ root: ../../../
 tags: [forensics, statistics, assignments]
 ---
  
-## Background:
-
-Carefully read the paper, "The Development and Application of Random Match Probabilities to Firearm and Toolmark Identification" by Murdock et al. It is provided in the repo [here](DevelopmentandApplicationofRMPsFirearmandToolmarkIdentification.pdf).
-
-Your assignment has two parts: 
-
-1. Your first assignment is to summarize this paper. There are four sections: the introduction, "Review of the Current Literature in Statistical Applications for Firearms and Toolmarks", "Current State of the Use of RMPs in Firearm and Toolmark Identification", and "Absolute Versus Practical Identification and Subjectivity". Please summarize each one, creating a header in your post for each.
-2. We have spent some time talking about titles and abstracts lately, specifically about how they should accurately and concisely describe the work being presented. Keep this in mind as you read and summarize the paper, and as a part of your response, assess the quality of the title and abstract of this paper compared to the content of this paper. Describe your assessment in detail, with examples and quotes from the paper to support your claims. 
-
-Once you have completed your summary and assessment of the paper, you may also write an entirely **optional** response to it. If you choose to do this part, think of it as a "Letter to the Editor": what is your opinion about the paper? If you like it (or don't like it), describe why (or why not) with citations. All of your thoughts are welcome. Joe and I are very curious. (It doesn't actually need to be formatted as a letter. That's just the idea we're going for.)
-
-Please use the following as a template for your post: 
-
 ## Summary of Murdock et. al
 
 ### Introduction
