@@ -21,9 +21,12 @@ tags: [forensics, statistics, assignments]
 1. We say the probability of the data under the null hypothesis because the null hypothesis is the same with no difference meaning its equal. Knowing the probability of the hypothesis given the data would be more interesting but we can't get the data without testing the hypothesis. 
 
 2. These are examples of null hypotheses.  
-    B) African American males have an equal chance of hailing a taxi as a white male. 
-    C) New York hospitals have an average cesarean rate. 
-    D) Patients taking new, less toxic type of chemotherapy has equal response rates as standard chemotherapy 
+   
+   B) African American males have an equal chance of hailing a taxi as a white male. 
+   
+   C) New York hospitals have an average cesarean rate. 
+   
+   D) Patients taking new, less toxic type of chemotherapy has equal response rates as standard chemotherapy 
   
 ## Chapter 15  
   
